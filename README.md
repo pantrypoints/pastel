@@ -1,5 +1,8 @@
 # 🥘 Pantrypoints
 
+git remote add origin https://github.com/pantrypoints/pastel.git
+
+
 **The Moneyless Economy Platform** — A SvelteKit web app for communities to exchange goods and services through a points-based barter system.
 
 ## Features

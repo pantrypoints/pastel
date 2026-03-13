@@ -5,20 +5,42 @@ export default {
 	theme: {
 		extend: {
 			colors: {
-				pastel: {
-					blue: '#A8D5E2',
-					'blue-light': '#D4EEF7',
-					'blue-dark': '#5BA3C0',
-					green: '#A8DDB5',
-					'green-light': '#D4F0D9',
-					'green-dark': '#5AAF72',
-					red: '#F4ACAC',
-					'red-light': '#FAD4D4',
-					'red-dark': '#D46A6A',
-					yellow: '#F4E285',
-					'yellow-light': '#FAF0B0',
-					'yellow-dark': '#C4B030'
-				}
+pastel: {
+    // Blue - Based on #0A75AD
+    blue: '#3c95d3',
+'blue-light': '#B2D6F0',
+    'blue-dark': '#2A6B99',
+
+    // Green - Based on #00BD6C
+    green: '#00BD6C',
+    'green-light': '#8EE6C1',
+    'green-dark': '#008A4F',
+
+    // Red - Based on #FF6666
+    red: '#FF6666',
+    'red-light': '#FFB3B3',
+    'red-dark': '#D14D4D',
+
+    // Yellow - Based on #FFA500
+    yellow: '#FFA500',
+    'yellow-light': '#FFD27F',
+    'yellow-dark': '#CC8400'
+}
+
+				// pastel: {
+				// 	blue: '#A8D5E2',
+				// 	'blue-light': '#D4EEF7',
+				// 	'blue-dark': '#5BA3C0',
+				// 	green: '#A8DDB5',
+				// 	'green-light': '#D4F0D9',
+				// 	'green-dark': '#5AAF72',
+				// 	red: '#F4ACAC',
+				// 	'red-light': '#FAD4D4',
+				// 	'red-dark': '#D46A6A',
+				// 	yellow: '#F4E285',
+				// 	'yellow-light': '#FAF0B0',
+				// 	'yellow-dark': '#C4B030'
+				// }
 			},
 			fontFamily: {
 				display: ['"Nunito"', 'system-ui', 'sans-serif'],
